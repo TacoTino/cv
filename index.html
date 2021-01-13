@@ -5,27 +5,48 @@
   <meta charset="utf-8">
   <title> Tino's Personal Site</title>
   <style>
-    body {
-    background-color: #e8e8e8;
+     body {
+    background-color: #222831;
   }
   h1 {
-    color: #f05454;
-    text-shadow: 2px 2px 10px #30475e;
+    color: #eeeeee;
+    text-shadow: 2px 2px 10px #e6e6e6;
+  }
+
+  p {
+    color: #eeeeee
   }
 
   h3 {
-    color: #30475e;
-    text-shadow: 2px 2px 10px #30475e;
+    color: #eeeeee;
+    text-shadow: 2px 2px 10px #f2f2f2;
+  }
+  table, thead, td, tbody, th {
+    color: #eeeeee
   }
 
 
   hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color: #393e46;
     border-width: 5px;
     width: 5%;
   }
+
+  li {
+    color: #eeeeee;
+  }
+
+  a {
+  color: #00adb5;
+  text-decoration: none;
+ }
+
+.header {
+  text-align: left;
+}
+
   </style>
 
 </head>
@@ -59,7 +80,7 @@
   <h3>Technical Skills</h3>
   <!-- border and cellspacing added for looks, outdated code-->
   <table cellspacing="10">
-      <ul>
+    <ul>
       <li>Applications:</li>
       <ul>
         <li>Microsoft Word</li>
@@ -98,55 +119,72 @@
   </table>
   <h3>Work Experience:</h3>
   <table>
-    <thead>
+    <thead  class="header">
       <tr>
-        <th><b><em>Saftey Officer-</em></b></th>
-        <td>Oct 2019 - Present - Cal Wall System inc., Bakersfield, CA</td>
+          <th><b><em>Saftey Officer-</em></b>  Oct 2019 - Present - Cal Wall System inc., Bakersfield, CA</th>
+        </p>
       </tr>
     </thead>
-    <table>
-      <ul>
-        <li>Auditing production. Providing observation for unsafe behavior or violations against regulation codes.</li>
-        <li>Participating in continuing education to update knowledge of health and safety protocols and techniques.</li>
-        <li>Reviewing and reporting on the staff's compliance with health and safety rules per OSHA guidelines.</li>
-        <li>Holding training meets with company staff to cover proper use of equipment and safety standards.</li>
-      </ul>
-    </table>
-    <thead>
+    <tbody>
       <tr>
-        <th><b><em>Senior Project Planner -</em></b></th>
-        <td>Feb 2017- Oct 2019, Chatsworth, CA</td>
+        <td>
+          <ul>
+            <li>Auditing production. Providing observation for unsafe behavior or violations against regulation codes.</li>
+            <li>Participating in continuing education to update knowledge of health and safety protocols and techniques.</li>
+            <li>Reviewing and reporting on the staff's compliance with health and safety rules per OSHA guidelines.</li>
+            <li>Holding training meets with company staff to cover proper use of equipment and safety standards.</li>
+          </ul>
+        </td>
       </tr>
-    </thead>
-    <table>
-      <ul>
-        <li>Overhauled the manufacturing scheduling process and systems to increase productivity by 60% allowing more projects to be completed.</li>
-        <li>Monitor, and plan projects associated with clients such as NASA, SpaceX, Navy, Army and Private sectors.</li>
-        <li>Managed multiple departments. Overseeing orders to ensure the right parts were used for high valued projects.</li>
-        <li>Complete projects by mandatory deadlines to ensure success for the company and customers.</li>
-        <li>Managed inventory valued at $30 million.</li>
-      </ul>
-    </table>
-    <thead>
-      <tr>
-        <th><b><em>Store Manger Level III -</em></b></th>
-        <td>Sep 2009- Feb 2017, Santa Clarita, CA</td>
-      </tr>
-    </thead>
-    <table>
-      <ul>
-        <li>Facilitate weekly personnel training and educational sessions to sales team.</li>
-        <li>Coach personnel on “opportunities” with key sales and reputation metrics, recognize teams for positive performance against key sales and reputation.</li>
-        <li>Top store for 2016, record breaking sales in multiple categories with quarterly improvements.</li>
-        <li>Met and exceeded assigned customer experience and reputation, sales and service, revenue and productivity targets.</li>
-      </ul>
-    </table>
-
+    </tbody>
   </table>
-  <hr>
-  <!--hyperlink to other html flies-->
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="Contact info.html">Contact Me</a>
+  <table>
+    <thead class="header">
+      <tr>
+        <th><b><em>Senior Project Planner -</em></b>  Feb 2017- Oct 2019, Chatsworth, CA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Overhauled the manufacturing scheduling process and systems to increase productivity by 60% allowing more projects to be completed.</li>
+            <li>Monitor, and plan projects associated with clients such as NASA, SpaceX, Navy, Army and Private sectors.</li>
+            <li>Managed multiple departments. Overseeing orders to ensure the right parts were used for high valued projects.</li>
+            <li>Complete projects by mandatory deadlines to ensure success for the company and customers.</li>
+            <li>Managed inventory valued at $30 million.</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead class="header">
+      <tr>
+        <th><b><em>Store Manger Level III -</em></b> Sep 2009- Feb 2017, Santa Clarita, CA</th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li>Facilitate weekly personnel training and educational sessions to sales team.</li>
+              <li>Coach personnel on “opportunities” with key sales and reputation metrics, recognize teams for positive performance against key sales and reputation.</li>
+              <li>Top store for 2016, record breaking sales in multiple categories with quarterly improvements.</li>
+              <li>Met and exceeded assigned customer experience and reputation, sales and service, revenue and productivity targets.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+  </table>
+
+
+</body>
+
+<hr>
+<!--hyperlink to other html flies-->
+<a href="hobbies.html">My Hobbies</a>
+<a href="Contact info.html">Contact Me</a>
 </body>
 
 </html>
